@@ -1,11 +1,7 @@
 name: Reusable Print Message
 
 on:
-  workflow_call:
-    inputs:
-      message:
-        required: true
-        type: string
+  workflow_dispatch:
 
 jobs:
   print-message:
