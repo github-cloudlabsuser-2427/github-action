@@ -36,4 +36,3 @@ jobs:
     - name: Push Docker image
       run: |
         docker push gacontainer1375609.azurecr.io/my-app:latest
-
